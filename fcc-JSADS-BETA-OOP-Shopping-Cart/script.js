@@ -95,4 +95,10 @@ products.forEach(({name, id, price, category}) => {
         <button id=${id} class="btn add-to-cart-btn">Add to cart</button>
     </div>
     `;
-});
+    }
+);
+
+
+
+
+class ShoppingCart {};
