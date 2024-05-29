@@ -133,7 +133,7 @@ class ShoppingCart {
         const subTotal = this.items.reduce((total, item) => total + item.price, 0);
     }
     calculateTaxes(amount) {
-        return ((this.taxRate / 100) * amount).toFixed(2);
+        return parseFloat(((this.taxRate / 100) * amount).toFixed(2));
     }
 };
 
