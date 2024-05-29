@@ -113,5 +113,6 @@ class ShoppingCart {
         this.items.push(product);
 
         const totalCountPerProduct = {};
+        this.items.forEach((dessert) => {});
     }
 };
