@@ -146,6 +146,7 @@ class ShoppingCart {
             alert("Your shopping cart is already empty");
             return;
         }
+        const isCartCleared = confirm("Are you sure you want to clear all items from your shopping cart?");
     }
 };
 
