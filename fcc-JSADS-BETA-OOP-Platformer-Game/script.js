@@ -84,4 +84,8 @@ const startGame = () => {
 
 startBtn.addEventListener("click", startGame);
 
-const movePlayer = (key, xVelocity, isPressed) => {};
+const movePlayer = (key, xVelocity, isPressed) => {
+    if (!isCheckpointCollisionDetectionActive) {
+        
+    }
+};
