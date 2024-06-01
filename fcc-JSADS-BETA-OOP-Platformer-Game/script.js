@@ -82,8 +82,6 @@ const startGame = () => {
     player.draw();
 };
 
-startBtn.addEventListener("click", startGame);
-
 const movePlayer = (key, xVelocity, isPressed) => {
     if (!isCheckpointCollisionDetectionActive) {
         player.velocity.x = 0;
@@ -112,3 +110,8 @@ const movePlayer = (key, xVelocity, isPressed) => {
             break;
     }
 };
+
+
+startBtn.addEventListener("click", startGame);
+window.addEventListener("keydown", ({key}) => {});
+
