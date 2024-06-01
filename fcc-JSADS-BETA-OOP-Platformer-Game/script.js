@@ -109,6 +109,7 @@ const animate = () => {
             platforms.forEach(platform => platform.position.x += 5);
         }
     }
+    platforms.forEach(platform => {});
 };
 
 const keys = {
