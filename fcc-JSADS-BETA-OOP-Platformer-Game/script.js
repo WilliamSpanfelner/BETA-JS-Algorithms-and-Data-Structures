@@ -56,6 +56,7 @@ class Player {
         }
     };
 }
+class Platform {}
 
 const player = new Player();
 const animate = () => {
