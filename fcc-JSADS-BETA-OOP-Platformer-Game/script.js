@@ -113,5 +113,7 @@ const movePlayer = (key, xVelocity, isPressed) => {
 
 
 startBtn.addEventListener("click", startGame);
-window.addEventListener("keydown", ({key}) => {});
+window.addEventListener("keydown", ({key}) => {
+    movePlayer(key, 8, true);
+});
 
