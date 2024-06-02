@@ -204,6 +204,7 @@ const movePlayer = (key, xVelocity, isPressed) => {
 
 const showCheckpointScreen = (msg) => {
     checkpointScreen.style.display = "block";
+    checkpointMessage.textContent = msg;
 };
 
 startBtn.addEventListener("click", startGame);
