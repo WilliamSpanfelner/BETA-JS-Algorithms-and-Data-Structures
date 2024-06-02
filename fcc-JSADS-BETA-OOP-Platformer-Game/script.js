@@ -69,7 +69,7 @@ class Platform {
 }
 
 
-class Checkpoint {}
+class CheckPoint {}
 
 const player = new Player();
 
