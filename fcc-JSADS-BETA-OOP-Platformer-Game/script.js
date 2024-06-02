@@ -171,8 +171,10 @@ const animate = () => {
         ];
         if (checkpointDetectionRules.every((el) => el)) {
             checkpoint.claim();
-            if (index == checkpoints.length - 1) {
-                
+            if (index === checkpoints.length - 1) { 
+                isCheckpointCollisionDetectionActive = false;
+                showCheckpointScreen("You reached the final checkpoint!");
+                movePlayer("ArrowRight", 0, false);
             }
         };
     });
