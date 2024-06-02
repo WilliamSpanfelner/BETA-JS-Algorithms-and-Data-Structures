@@ -68,10 +68,10 @@ class Platform {
     }
 }
 
+
+class Checkpoint {}
+
 const player = new Player();
-
-
-
 
 const platformPositions = [
     {x: 500, y: proportionalSize(450)},
