@@ -202,7 +202,9 @@ const movePlayer = (key, xVelocity, isPressed) => {
     }
 };
 
-const showCheckpointScreen = (msg) => {};
+const showCheckpointScreen = (msg) => {
+    checkpointScreen.style.display = "block";
+};
 
 startBtn.addEventListener("click", startGame);
 window.addEventListener("keydown", ({key}) => {
