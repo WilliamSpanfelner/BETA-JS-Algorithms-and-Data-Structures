@@ -160,7 +160,11 @@ const animate = () => {
             player.velocity.y = gravity;
         }
     });
-    checkpoints.forEach((checkpoint, index, checkpoints) => {});
+    checkpoints.forEach((checkpoint, index, checkpoints) => {
+        const checkpointDetectionRules = [
+            player.position.x >= checkpoint.position.x,
+        ];
+    });
 };
 
 const keys = {
