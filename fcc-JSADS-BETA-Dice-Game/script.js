@@ -28,6 +28,8 @@ const rollDice = () => {
     });
 };
 
+rollDiceBtn.addEventListener("click", () => {});
+
 let rolls = score = totalScore = 0; 
 let round = 1;
 
