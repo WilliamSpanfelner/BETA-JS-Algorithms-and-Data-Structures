@@ -20,4 +20,6 @@ let diceValuesArr = [];
 let rolls = score = totalScore = 0; 
 let round = 1;
 
-rulesBtn.addEventListener("click", () => {});
+rulesBtn.addEventListener("click", () => {
+    isModalShowing = !isModalShowing;
+});
