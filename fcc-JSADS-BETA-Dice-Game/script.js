@@ -17,6 +17,9 @@ const rulesBtn = document.getElementById("rules-btn");
 let isModalShowing = false;
 let diceValuesArr = [];
 
+let rolls = score = totalScore = 0; 
+let round = 1;
+
 const rollDice = () => {
     diceValuesArr = [];
     for (let i = 0; i < 5; i++) {
@@ -31,11 +34,11 @@ const rollDice = () => {
 rollDiceBtn.addEventListener("click", () => {
     if (rolls === 3) {
         alert("You have made three rolls this round. Please select a score.");
+    } else {
+        rolls++;
+        rollDice();
     }
 });
-
-let rolls = score = totalScore = 0; 
-let round = 1;
 
 rulesBtn.addEventListener("click", () => {
     isModalShowing = !isModalShowing;
