@@ -22,4 +22,8 @@ let round = 1;
 
 rulesBtn.addEventListener("click", () => {
     isModalShowing = !isModalShowing;
+    if (isModalShowing) {
+        rulesBtn.textContent = "Hide Rules";
+        rulesContainer.style.display = "block";
+    }
 });
