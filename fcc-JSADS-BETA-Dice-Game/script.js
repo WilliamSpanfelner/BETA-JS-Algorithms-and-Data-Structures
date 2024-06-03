@@ -23,7 +23,9 @@ const rollDice = () => {
         const randomDice = Math.floor((Math.random() * 6) + 1)
         diceValuesArr.push(randomDice);
     };
-    listOfAllDice.forEach((dice, index) => {});
+    listOfAllDice.forEach((dice, index) => {
+        dice.textContent = diceValuesArr[index];
+    });
 };
 
 let rolls = score = totalScore = 0; 
