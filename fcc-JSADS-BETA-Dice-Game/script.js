@@ -20,4 +20,4 @@ let diceValuesArr = [];
 let rolls = score = totalScore = 0; 
 let round = 1;
 
-console.log(rolls);
+rulesBtn.addEventListener("click", () => {});
