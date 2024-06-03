@@ -7,3 +7,6 @@ const currentRoundRollsText = document.getElementById("current-round-rolls");
 
 const totalScoreText = document.getElementById("total-score");
 const scoreHistory = document.getElementById("score-history");
+
+const rollDiceBtn = document.getElementById("roll-dice-btn");
+const keepScoreBtn = document.getElementById("keep-score-btn");
