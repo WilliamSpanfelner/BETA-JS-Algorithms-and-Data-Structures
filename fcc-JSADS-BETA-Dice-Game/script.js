@@ -17,7 +17,9 @@ const rulesBtn = document.getElementById("rules-btn");
 let isModalShowing = false;
 let diceValuesArr = [];
 
-const rollDice = () => {};
+const rollDice = () => {
+    diceValuesArr = [];
+};
 
 let rolls = score = totalScore = 0; 
 let round = 1;
