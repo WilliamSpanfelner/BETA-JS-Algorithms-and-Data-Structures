@@ -38,6 +38,7 @@ const updateStats = () => {
 
 const updateRadioOption = (optionNode, score) => {
     scoreInputs[optionNode].disabled = false;
+    scoreInputs[optionNode].value = score;
 };
 
 rollDiceBtn.addEventListener("click", () => {
