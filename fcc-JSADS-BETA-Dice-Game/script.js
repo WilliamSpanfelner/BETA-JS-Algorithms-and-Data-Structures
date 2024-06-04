@@ -44,6 +44,8 @@ const updateRadioOption = (optionNode, score) => {
 
 const updateScore = (selectedValue, achieved) => {
     totalScore += parseInt(selectedValue);
+    totalScoreText.textContent = totalScore;
+    scoreHistory.innerHTML += `<li>${achieved} : ${selectedValue}</li>`;
 };
 
 const getHighestDuplicates = (arr) => {
