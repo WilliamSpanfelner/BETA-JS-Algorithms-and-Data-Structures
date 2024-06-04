@@ -51,6 +51,7 @@ const getHighestDuplicates = (arr) => {
             counts[num] = 1;
         }
     };
+    let highestCount = 0;
 };
 
 rollDiceBtn.addEventListener("click", () => {
