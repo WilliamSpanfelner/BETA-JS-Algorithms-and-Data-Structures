@@ -77,6 +77,7 @@ rollDiceBtn.addEventListener("click", () => {
         rolls++;
         rollDice();
         updateStats();
+        getHighestDuplicates(diceValuesArr);
         // updateRadioOption(0, 10);
     }
 });
