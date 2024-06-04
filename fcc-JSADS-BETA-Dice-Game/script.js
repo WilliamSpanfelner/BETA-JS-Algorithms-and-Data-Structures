@@ -49,7 +49,7 @@ rollDiceBtn.addEventListener("click", () => {
         rolls++;
         rollDice();
         updateStats();
-        updateRadioOption(0, 10);
+        // updateRadioOption(0, 10);
     }
 });
 
