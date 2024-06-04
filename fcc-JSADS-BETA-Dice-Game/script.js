@@ -60,6 +60,7 @@ const getHighestDuplicates = (arr) => {
             highestCount = count;
         }
     };
+    const sumOfAllDice = diceValuesArr.reduce((a, b) => a + b, 0);
 };
 
 rollDiceBtn.addEventListener("click", () => {
