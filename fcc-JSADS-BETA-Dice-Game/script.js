@@ -113,5 +113,11 @@ rulesBtn.addEventListener("click", () => {
 keepScoreBtn.addEventListener('click', () => {
     let selectedValue;
     let achieved;
-    for (const radioButton of scoreInputs) {};
+    for (const radioButton of scoreInputs) {
+        if (radioButton.checked) {
+            selectedValue = radioButton.value;
+            achieved = radioButton.id;
+            break;
+        }
+    };
 });
