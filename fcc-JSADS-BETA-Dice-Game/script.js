@@ -99,7 +99,13 @@ rollDiceBtn.addEventListener("click", () => {
     }
 });
 
-const resetGame = () => {};
+const resetGame = () => {
+    diceValuesArr = [0, 0, 0, 0, 0];
+    score = 0;
+    totalScore = 0;
+    rolls = 0;
+    round = 1;
+};
 
 rulesBtn.addEventListener("click", () => {
     isModalShowing = !isModalShowing;
