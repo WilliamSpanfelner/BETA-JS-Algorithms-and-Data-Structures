@@ -109,6 +109,7 @@ rollDiceBtn.addEventListener("click", () => {
         updateStats();
         getHighestDuplicates(diceValuesArr);
         // updateRadioOption(0, 10);
+        detectFullHouse(diceValuesArr);
     }
 });
 
