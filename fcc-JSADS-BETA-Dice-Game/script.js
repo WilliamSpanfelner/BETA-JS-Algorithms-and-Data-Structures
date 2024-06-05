@@ -90,9 +90,9 @@ const detectFullHouse = (arr) => {
     const counts = {};
     for (const num of arr) {
         counts[num] = counts[num] ? counts[num] + 1 : 1;
-
     };
     const hasThreeOfAKind = Object.values(counts).includes(3);
+    const hasPair = Object.values(counts).includes(2);
 };
 
 rollDiceBtn.addEventListener("click", () => {
