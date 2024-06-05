@@ -109,6 +109,11 @@ const checkForStraights = (arr) => {
     if (largeStraightsArr.includes(uniqueNumbersStr)) {
         updateRadioOption(4, 40);
     }
+    smallStraightsArr.some(straight => {
+        if (uniqueNumbersStr.includes(straight)) {
+            updateRadioOption(3, 30);
+        }
+    });
 };
 
 rollDiceBtn.addEventListener("click", () => {
