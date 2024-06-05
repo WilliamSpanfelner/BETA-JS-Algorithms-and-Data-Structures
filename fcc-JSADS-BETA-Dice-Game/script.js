@@ -88,6 +88,7 @@ const resetRadioOption = () => {
 
 const detectFullHouse = (arr) => {
     const counts = {};
+    for (const num of arr) {};
 };
 
 rollDiceBtn.addEventListener("click", () => {
