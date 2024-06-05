@@ -99,6 +99,8 @@ rollDiceBtn.addEventListener("click", () => {
     }
 });
 
+const resetGame = () => {};
+
 rulesBtn.addEventListener("click", () => {
     isModalShowing = !isModalShowing;
     if (isModalShowing) {
