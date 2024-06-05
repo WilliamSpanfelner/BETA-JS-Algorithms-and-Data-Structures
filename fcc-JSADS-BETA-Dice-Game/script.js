@@ -114,6 +114,7 @@ const checkForStraights = (arr) => {
             updateRadioOption(3, 30);
         }
     });
+    updateRadioOption(5, 0);
 };
 
 rollDiceBtn.addEventListener("click", () => {
