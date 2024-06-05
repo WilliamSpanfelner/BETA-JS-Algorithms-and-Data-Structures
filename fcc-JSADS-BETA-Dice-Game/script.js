@@ -112,6 +112,7 @@ const resetGame = () => {
     scoreHistory.innerHTML = '';
     currentRoundRollsText.textContent = rolls;
     currentRoundText.textContent = round;
+    resetRadioOption();
 };
 
 rulesBtn.addEventListener("click", () => {
