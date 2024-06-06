@@ -12,6 +12,8 @@ let authorDataArr = [];
 
 const displayAuthors = (authors) => {
     authors.forEach(({author, image, url, bio}, index)=>{
-        authorContainer.innerHTML += ``;
+        authorContainer.innerHTML += `
+        <div id="${index}" class="user-card"></div>
+        `;
     });
 };
