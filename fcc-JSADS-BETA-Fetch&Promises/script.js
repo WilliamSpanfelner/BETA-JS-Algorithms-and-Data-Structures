@@ -9,3 +9,5 @@ fetch("https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json")
 let startingIndex = 0;
 let endingIndex = 8;
 let authorDataArr = [];
+
+const displayAuthors = (authors) => {};
