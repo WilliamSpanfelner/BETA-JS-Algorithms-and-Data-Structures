@@ -11,5 +11,5 @@ let endingIndex = 8;
 let authorDataArr = [];
 
 const displayAuthors = (authors) => {
-    authors.forEach();
+    authors.forEach(({author, image, url, bio}, index)=>{});
 };
