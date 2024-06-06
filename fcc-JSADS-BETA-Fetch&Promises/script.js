@@ -7,7 +7,10 @@ let authorDataArr = [];
 
 fetch("https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json")
 .then((res)=>res.json())
-.then((data)=>{authorDataArr = data;})
+.then((data)=>{
+    authorDataArr = data;
+    console.log("Author Data Array: ", authorDataArr);
+})
 .catch((err)=>{console.error(`There was an error: ${err}`);});
 
 const displayAuthors = (authors) => {
