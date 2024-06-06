@@ -10,4 +10,6 @@ let startingIndex = 0;
 let endingIndex = 8;
 let authorDataArr = [];
 
-const displayAuthors = (authors) => {};
+const displayAuthors = (authors) => {
+    authors.forEach();
+};
