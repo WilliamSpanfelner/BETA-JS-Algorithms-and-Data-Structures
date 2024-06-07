@@ -23,4 +23,5 @@ fetchData();
 
 const showLatestPosts = (data) => {
     const {topic_list, users} = data;
+    const {topics} = topic_list;
 };
