@@ -12,9 +12,9 @@ const fetchData = async () => {
         // convert res into json
         const data = await res.json();
         // view results
-        console.log(data);
+        // console.log(data);
     } catch (err) {
-        
+        console.log(err);
     }
 };
 // Call fetchData to see results
