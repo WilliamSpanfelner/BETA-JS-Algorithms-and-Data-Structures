@@ -26,6 +26,13 @@ const showLatestPosts = (data) => {
     const {topics} = topic_list;
     postsContainer.innerHTML = topics.map((item)=>{
         const {id, title, views, posts_count, slug, posters, category_id, bumped_at} = item;
-        return `<tr></tr>`;
+        return `
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>`;
     }).join('');
 };
