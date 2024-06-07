@@ -19,3 +19,5 @@ const fetchData = async () => {
 };
 // Call fetchData to see results
 fetchData();
+
+const showLatestPosts = (data) => {};
