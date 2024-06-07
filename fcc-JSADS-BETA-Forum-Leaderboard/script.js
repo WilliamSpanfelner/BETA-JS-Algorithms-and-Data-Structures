@@ -28,7 +28,7 @@ const showLatestPosts = (data) => {
         const {id, title, views, posts_count, slug, posters, category_id, bumped_at} = item;
         return `
         <tr>
-          <td></td>
+          <td><p class="post-title">${title}</p></td>
           <td></td>
           <td></td>
           <td></td>
