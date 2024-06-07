@@ -22,6 +22,14 @@ const timeAgo = (time) => {
     }
 };
 
+
+const viewCount = (views) => {
+    if (views >= 1000) {
+        return `${Math.floor(views / 1000)}k`;
+    }
+    return views;
+};
+
 const fetchData = async () => {
     try {
         // await waits for a promise to resolve and returns the result
