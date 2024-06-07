@@ -5,6 +5,11 @@ const avatarUrl = "https://sea1.discourse-cdn.com/freecodecamp";
 
 const postsContainer = document.getElementById("posts-container");
 
+const timeAgo = (time) => {
+    const currentTime = new Date();
+    const lastPost = new Date(time);
+};
+
 const fetchData = async () => {
     try {
         // await waits for a promise to resolve and returns the result
