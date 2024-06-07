@@ -9,6 +9,8 @@ const fetchData = async () => {
     try {
         // await waits for a promise to resolve and returns the result
         const res = await fetch(forumLatest);
+        // convert res into json
+        const data = await res.json();
     } catch (err) {
         
     }
