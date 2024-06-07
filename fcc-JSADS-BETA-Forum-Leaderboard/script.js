@@ -11,7 +11,11 @@ const fetchData = async () => {
         const res = await fetch(forumLatest);
         // convert res into json
         const data = await res.json();
+        // view results
+        console.log(data);
     } catch (err) {
         
     }
 };
+// Call fetchData to see results
+fetchData();
