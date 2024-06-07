@@ -13,6 +13,7 @@ const fetchData = async () => {
         const data = await res.json();
         // view results
         // console.log(data);
+        showLatestPosts(data);
     } catch (err) {
         console.log(err);
     }
