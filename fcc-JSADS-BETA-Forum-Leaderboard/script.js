@@ -21,4 +21,6 @@ const fetchData = async () => {
 // Call fetchData to see results
 fetchData();
 
-const showLatestPosts = (data) => {};
+const showLatestPosts = (data) => {
+    const {topic_list, users} = data;
+};
