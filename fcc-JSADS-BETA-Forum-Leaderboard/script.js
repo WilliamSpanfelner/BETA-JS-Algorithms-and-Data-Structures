@@ -80,7 +80,10 @@ const showLatestPosts = (data) => {
         const {id, title, views, posts_count, slug, posters, category_id, bumped_at} = item;
         return `
         <tr>
-          <td><p class="post-title">${title}</p></td>
+          <td>
+            <p class="post-title">${title}</p>
+            ${forumCategory(category_id)}
+          </td>
           <td></td>
           <td>${posts_count - 1}</td>
           <td>${viewCount(views)}</td>
