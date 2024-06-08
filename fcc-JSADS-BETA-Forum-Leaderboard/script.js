@@ -57,6 +57,8 @@ const viewCount = (views) => {
     return views;
 };
 
+const avatars = (posters, users) => {};
+
 const fetchData = async () => {
     try {
         // await waits for a promise to resolve and returns the result
