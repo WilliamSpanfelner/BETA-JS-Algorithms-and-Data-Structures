@@ -21,7 +21,7 @@ const forumCategory = (id) => {
         const {className, category} = allCategories[id];
         selectedCategory.className = className;
         selectedCategory.category = category;
-    }
+    } else {}
 };
 
 const timeAgo = (time) => {
