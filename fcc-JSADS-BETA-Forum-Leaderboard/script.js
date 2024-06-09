@@ -94,7 +94,7 @@ const showLatestPosts = (data) => {
         return `
         <tr>
           <td>
-            <a class="post-title">${title}</a>
+            <a target="_blank" href="${forumTopicUrl}${slug}/${id}" class="post-title">${title}</a>
             ${forumCategory(category_id)}
           </td>
           <td>
