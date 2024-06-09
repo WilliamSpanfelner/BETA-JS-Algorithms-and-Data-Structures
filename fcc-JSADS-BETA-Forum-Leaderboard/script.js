@@ -66,7 +66,8 @@ const avatars = (posters, users) => {
             avatar;
             return `<img src="${userAvatarUrl}" alt="${user.name}">`;
         }
-    });
+    })
+    .join('');
 };
 
 const fetchData = async () => {
