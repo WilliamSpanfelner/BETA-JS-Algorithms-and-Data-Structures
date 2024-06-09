@@ -49,7 +49,6 @@ const timeAgo = (time) => {
     }
 };
 
-
 const viewCount = (views) => {
     if (views >= 1000) {
         return `${Math.floor(views / 1000)}k`;
@@ -65,6 +64,7 @@ const avatars = (posters, users) => {
             const userAvatarUrl = avatar.startsWith("/user_avatar/") ? 
             avatarUrl.concat(avatar) : 
             avatar;
+            return `<img src="${userAvatarUrl}" alt="${user.name}">`;
         }
     });
 };
