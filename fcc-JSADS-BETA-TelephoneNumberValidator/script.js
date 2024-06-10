@@ -8,3 +8,5 @@ checkButton.addEventListener("click", ()=>{
         alert("Please provide a phone number");
     }
 });
+
+clearButton.addEventListener("click", ()=>{});
