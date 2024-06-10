@@ -11,4 +11,6 @@ checkButton.addEventListener("click", ()=>{
     }
 });
 
-clearButton.addEventListener("click", ()=>{});
+clearButton.addEventListener("click", ()=>{
+    results.innerText = '';
+});
