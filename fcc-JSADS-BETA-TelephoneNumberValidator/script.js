@@ -26,4 +26,5 @@ checkButton.addEventListener("click", ()=>{
 
 clearButton.addEventListener("click", ()=>{
     results.innerText = '';
+    userInput.value = '';
 });
