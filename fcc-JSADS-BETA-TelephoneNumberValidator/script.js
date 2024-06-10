@@ -20,7 +20,7 @@ checkButton.addEventListener("click", ()=>{
     } else {
         console.log(telephoneCheck(numberToQuery));
         if (telephoneCheck(numberToQuery)) {
-            
+            results.innerText = `Valid US number: ${numberToQuery}`;
         }
     }
 });
