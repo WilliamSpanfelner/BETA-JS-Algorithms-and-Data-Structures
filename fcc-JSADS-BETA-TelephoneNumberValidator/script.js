@@ -13,7 +13,8 @@ function telephoneCheck(str) {
 }
 
 checkButton.addEventListener("click", ()=>{
-    if (userInput.value === '') {
+    const numberToQuery = userInput.value;
+    if (numberToQuery === '') {
         console.log("Empty input");
         alert("Please provide a phone number");
     }
