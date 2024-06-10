@@ -18,10 +18,9 @@ checkButton.addEventListener("click", ()=>{
         console.log("Empty input");
         alert("Please provide a phone number");
     } else {
-        console.log(telephoneCheck(numberToQuery));
-        if (telephoneCheck(numberToQuery)) {
-            results.innerText = `Valid US number: ${numberToQuery}`;
-        }
+        results.innerText = telephoneCheck(numberToQuery) ? 
+        `Valid US number: ${numberToQuery}` :
+        `Invalid US number: ${numberToQuery}`;
     }
 });
 
