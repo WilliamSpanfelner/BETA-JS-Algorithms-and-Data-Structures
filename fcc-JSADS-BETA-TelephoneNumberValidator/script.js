@@ -18,7 +18,10 @@ checkButton.addEventListener("click", ()=>{
         console.log("Empty input");
         alert("Please provide a phone number");
     } else {
-        telephoneCheck(numberToQuery);
+        console.log(telephoneCheck(numberToQuery));
+        if (telephoneCheck(numberToQuery)) {
+            
+        }
     }
 });
 
