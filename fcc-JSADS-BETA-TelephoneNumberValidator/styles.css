@@ -13,5 +13,9 @@ input {
     align-items: center;
     justify-content: center;
     width: 100vw;
-  }
-  
+}
+
+#results-div {
+    padding-top: 0.5rem;
+    height: 1rem;
+}
