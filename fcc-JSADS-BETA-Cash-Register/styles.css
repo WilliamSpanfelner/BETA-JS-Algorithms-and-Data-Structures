@@ -7,4 +7,8 @@ body {
     background-color: rgba(255,255,255,0.25);
     padding: 0.5rem;
     border-radius: 0.5rem;
-  }
+}
+
+#change-due {
+    min-height: 2rem;
+}
