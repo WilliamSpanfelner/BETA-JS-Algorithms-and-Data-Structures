@@ -14,6 +14,7 @@ let cid = [
 const cash = document.getElementById("cash");
 const purchaseBtn = document.getElementById("purchase-btn");
 const changeDue = document.getElementById("change-due");
+
 purchaseBtn.addEventListener("click", () => {
     if (Number(cash.value) < price) {
         alert("Customer does not have enough money to purchase the item");
