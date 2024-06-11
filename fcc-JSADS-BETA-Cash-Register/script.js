@@ -17,5 +17,7 @@ const changeDue = document.getElementById("change-due");
 purchaseBtn.addEventListener("click", () => {
     if (Number(cash.value) < price) {
         alert("Customer does not have enough money to purchase the item");
+    } else if (Number(cash.value) === price) {
+        changeDue.innerText = "No change due - customer paid with exact cash";
     }
 });
