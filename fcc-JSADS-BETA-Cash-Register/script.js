@@ -12,3 +12,5 @@ let cid = [
 ];
 
 const cashRcvd = document.getElementById("cash");
+const purchaseBtn = document.getElementById("purchase-btn");
+const changeDue = document.getElementById("change-due");
