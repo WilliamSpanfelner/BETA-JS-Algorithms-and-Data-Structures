@@ -10,7 +10,7 @@ body {
     align-items: center;
 }
 
-h1, #signature {
+h1, #signature, a {
     color: yellow;
 }
 
