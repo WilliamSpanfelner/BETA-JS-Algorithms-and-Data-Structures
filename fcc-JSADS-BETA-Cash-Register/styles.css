@@ -10,6 +10,10 @@ body {
     align-items: center;
 }
 
+h1, #signature {
+    color: yellow;
+  }
+
 input {
     height: 2rem;
     border-radius: 0.5rem;
