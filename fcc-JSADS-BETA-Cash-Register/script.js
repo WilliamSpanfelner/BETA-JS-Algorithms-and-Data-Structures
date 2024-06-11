@@ -11,6 +11,6 @@ let cid = [
   ["ONE HUNDRED", 100]
 ];
 
-const cashRcvd = document.getElementById("cash");
+const cash = document.getElementById("cash");
 const purchaseBtn = document.getElementById("purchase-btn");
 const changeDue = document.getElementById("change-due");
