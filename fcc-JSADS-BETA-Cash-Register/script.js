@@ -14,6 +14,8 @@ let cid = [
 const cash = document.getElementById("cash");
 const purchaseBtn = document.getElementById("purchase-btn");
 const changeDue = document.getElementById("change-due");
+const priceToPay = document.getElementById("to-pay");
+priceToPay.innerText = price;
 
 function checkCashRegister(price, cash, cid) {
     /**
