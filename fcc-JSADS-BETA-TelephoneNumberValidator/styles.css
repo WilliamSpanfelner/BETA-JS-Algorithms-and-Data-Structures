@@ -7,17 +7,29 @@ input {
     width: 15rem;
 }
 
+fieldset {
+    border-radius: 1rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
 #phoneNumberApp {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100vw;
 }
 
 #results-div {
-    padding-top: 0.5rem;
-    height: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    height: 1.25rem;
+    text-align: center;
+    background-color: rgb(100, 0, 50);
 }
 
 #signature, a {
