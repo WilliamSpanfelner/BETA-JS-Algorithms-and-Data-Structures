@@ -131,5 +131,8 @@ purchaseBtn.addEventListener("click", () => {
         alert("Customer does not have enough money to purchase the item");
     } else if (Number(cash.value) === price) {
         changeDue.innerText = "No change due - customer paid with exact cash";
+    } else {
+        const result = checkCashRegister(price, Number(cash.value), cid);
+        changeDue.innerText = `Status: ${result.status} ${result.change[0][0]}: $${result.change[0][1]}`;
     }
 });
