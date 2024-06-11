@@ -30,6 +30,10 @@ input {
     gap: 0.5rem;
 }
 
+#to-pay {
+    text-align: right;
+}
+
 #to-pay, #change-due {
     background-color: rgba(255,255,255,0.25);
     padding: 0.5rem;
