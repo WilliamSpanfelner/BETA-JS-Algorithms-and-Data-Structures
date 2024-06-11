@@ -135,7 +135,7 @@ purchaseBtn.addEventListener("click", () => {
         changeDue.innerText = "No change due - customer paid with exact cash";
     } else {
         const result = checkCashRegister(price, Number(cash.value), cid);
-        const changeBreakdown = result.change.reduce((acc, item)=> acc += `${item[0]}: $${item[1]} `, '');
+        const changeBreakdown = result.change.reduce((acc, item)=> acc += `\n${item[0]}: $${item[1]} `, '');
         changeDue.innerText = `Status: ${result.status} ${changeBreakdown}`;
     }
 });
