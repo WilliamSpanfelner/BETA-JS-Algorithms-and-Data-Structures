@@ -10,3 +10,5 @@ let cid = [
   ["TWENTY", 60],
   ["ONE HUNDRED", 100]
 ];
+
+const cashRcvd = document.getElementById("cash");
