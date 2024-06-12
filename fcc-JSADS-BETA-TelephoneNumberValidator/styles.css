@@ -9,6 +9,7 @@ body {
 
 input {
     width: 15rem;
+    border-radius: 0.4rem;
 }
 
 fieldset {
