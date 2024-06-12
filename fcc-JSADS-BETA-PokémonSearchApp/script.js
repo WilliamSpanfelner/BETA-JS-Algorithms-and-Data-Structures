@@ -12,6 +12,7 @@ const pokemonSpecialAttack = document.getElementById("special-attack");
 const pokemonSpecialDefense = document.getElementById("special-defense");
 const pokemonSpeed = document.getElementById("speed");
 
+const pokemonDataBaseURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/"
 
 searchButton.addEventListener("click", ()=>{
     if (searchInput.value === "Red") {
