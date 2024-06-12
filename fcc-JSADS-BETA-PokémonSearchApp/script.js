@@ -18,6 +18,8 @@ searchButton.addEventListener("click", ()=>{
         alert("Pokémon not found");
     } else {
         const pokemonDataURL = `https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${searchInput.value}`
-        })
+        fetch(pokemonDataURL)
+        .then((res)=>res.json())
+        .then((data)=>{})
     }
 });
