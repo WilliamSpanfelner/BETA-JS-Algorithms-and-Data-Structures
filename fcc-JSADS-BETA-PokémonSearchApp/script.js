@@ -16,5 +16,8 @@ const pokemonSpeed = document.getElementById("speed");
 searchButton.addEventListener("click", ()=>{
     if (searchInput.value === "Red") {
         alert("Pokémon not found");
+    } else {
+        const pokemonDataURL = `https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${searchInput.value}`
+        })
     }
 });
