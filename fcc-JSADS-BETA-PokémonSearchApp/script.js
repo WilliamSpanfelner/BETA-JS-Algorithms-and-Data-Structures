@@ -18,9 +18,12 @@ searchButton.addEventListener("click", ()=>{
     if (searchInput.value === "Red") {
         alert("Pokémon not found");
     } else {
-        const pokemonDataURL = `https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${searchInput.value}`
+        const nameOrId = searchInput.value.toLowerCase();
+        const pokemonDataURL = pokemonDataBaseURL + nameOrId;
         fetch(pokemonDataURL)
         .then((res)=>res.json())
-        .then((data)=>{})
+        .then((data)=>{
+            console.log(data);
+        })
     }
 });
