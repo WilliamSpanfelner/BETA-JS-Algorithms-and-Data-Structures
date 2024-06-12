@@ -18,13 +18,20 @@ checkButton.addEventListener("click", ()=>{
         console.log("Empty input");
         alert("Please provide a phone number");
     } else {
-        results.innerText = telephoneCheck(numberToQuery) ? 
-        `Valid US number: ${numberToQuery}` :
-        `Invalid US number: ${numberToQuery}`;
+        if (telephoneCheck(numberToQuery)) {
+            results.innerText = `Valid US number: ${numberToQuery}`;
+            results.style.border = "2px solid green";
+            results.style.color = "green";
+        } else {
+            results.innerText = `Invalid US number: ${numberToQuery}`;
+            results.style.border = "2px solid red";
+            results.style.color = "red";
+        }
     }
 });
 
 clearButton.addEventListener("click", ()=>{
     results.innerText = '';
+    results.style.border = "none";
     userInput.value = '';
 });
