@@ -33,7 +33,13 @@ searchButton.addEventListener("click", ()=>{
 });
 
 const displayRetrieved = (data) => {
-    data.forEach(({name, id, weight, height, order,}) => {
-        pokemonCard.innerHTML += ``;
-    });
+    const {height, id, name, weight} = data;
+    // data.forEach(({name, id, weight, height, order,}) => {
+        pokemonCard.innerHTML += `
+        <div id="pokemon-name">${name}</div>
+        <div id="pokemon-id">${id}</div>
+        <div id="weight">Weight: ${weight}</div>
+        <div id="height">${height}</div>
+        `;      
+    // });
 };
