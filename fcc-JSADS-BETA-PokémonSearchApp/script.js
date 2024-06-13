@@ -27,12 +27,13 @@ searchButton.addEventListener("click", ()=>{
         .then((data)=>{
             console.log(data);
             pokemonData = data;
+            displayRetrieved(pokemonData);
         })
     }
 });
 
 const displayRetrieved = (data) => {
     data.forEach(({name, id, weight, height, order,}) => {
-        
+        pokemonCard.innerHTML += ``;
     });
 };
