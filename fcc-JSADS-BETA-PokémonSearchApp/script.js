@@ -42,7 +42,9 @@ const displayRetrieved = (data) => {
         <div id="height">${height}</div>
         `;      
     // });
-    stats.forEach(element => {
-        
+    stats.forEach(({base_stat, stat}, index) => {
+        if (stat.name == 'hp') {
+            pokemonCard.innerHTML += `<div id="hp">${base_stat}</div>`
+        }
     });
 };
