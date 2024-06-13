@@ -29,3 +29,5 @@ searchButton.addEventListener("click", ()=>{
         })
     }
 });
+
+const displayRetrieved = (data) => {};
