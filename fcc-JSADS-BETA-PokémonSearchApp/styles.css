@@ -7,3 +7,11 @@
 body {
     background-color: var(--pokemon-blue);
 }
+
+#pokemon-card {
+    background-color: var(--pokemon-yellow);
+}
+
+#pokemon-name {
+    text-transform: uppercase;
+}
