@@ -46,7 +46,8 @@ searchButton.addEventListener("click", ()=>{
     } else {
         const searchTerm = searchInput.value.toLowerCase();
         const pokeAPI_SearchTerm = pokeAPIURL + searchTerm;
-        oldFetch(pokeAPI_SearchTerm);
+        // oldFetch(pokeAPI_SearchTerm);
+        fetchDataFrom(pokeAPI_SearchTerm);
     }
 });
 
