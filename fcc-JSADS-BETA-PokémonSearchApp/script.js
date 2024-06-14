@@ -20,8 +20,9 @@ const fetchDataFrom = async (url) => {
     try {
         const res = await fetch(url);
         const data = await res.json();
-    } catch (error) {
-        
+        console.log(data);
+    } catch (err) {
+        console.log(err)
     }
 };
 
