@@ -21,6 +21,7 @@ const fetchDataFrom = async (url) => {
         const res = await fetch(url);
         const data = await res.json();
         console.log(data);
+        showPoke(data);
     } catch (err) {
         console.log(err)
     }
@@ -33,7 +34,7 @@ const oldFetch = (url) => {
     .then((data)=>{
         console.log(data);
         pokemonData = data;
-        displayRetrieved(pokemonData);
+        showPoke(pokemonData);
     })
 };
 
