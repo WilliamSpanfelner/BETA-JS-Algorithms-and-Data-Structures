@@ -13,7 +13,7 @@ const pokemonSpecialAttack = document.getElementById("special-attack");
 const pokemonSpecialDefense = document.getElementById("special-defense");
 const pokemonSpeed = document.getElementById("speed");
 
-const pokemonDataBaseURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/"
+const pokeAPIURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
 let pokemonData = [];
 
 // Coding output changes can be more readily seen by enabling the following line - it should be commented out by default
@@ -24,7 +24,7 @@ searchButton.addEventListener("click", ()=>{
         alert("Pokémon not found");
     } else {
         const nameOrId = searchInput.value.toLowerCase();
-        const pokemonDataURL = pokemonDataBaseURL + nameOrId;
+        const pokemonDataURL = pokeAPIURL + nameOrId;
         fetch(pokemonDataURL)
         .then((res)=>res.json())
         .then((data)=>{
