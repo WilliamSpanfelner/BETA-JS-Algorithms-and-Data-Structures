@@ -37,15 +37,9 @@ searchButton.addEventListener("click", ()=>{
     if (searchInput.value === "Red") {
         alert("Pokémon not found");
     } else {
-        const nameOrId = searchInput.value.toLowerCase();
-        const pokemonDataURL = pokeAPIURL + nameOrId;
-        fetch(pokemonDataURL)
-        .then((res)=>res.json())
-        .then((data)=>{
-            console.log(data);
-            pokemonData = data;
-            displayRetrieved(pokemonData);
-        })
+        const searchTerm = searchInput.value.toLowerCase();
+        const pokeAPI_SearchTerm = pokeAPIURL + searchTerm;
+        oldFetch(pokeAPI_SearchTerm);
     }
 });
 
