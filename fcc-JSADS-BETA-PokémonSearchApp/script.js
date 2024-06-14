@@ -49,17 +49,17 @@ const displayRetrieved = (data) => {
 
     stats.forEach(({base_stat, stat}, index) => {
         if (stat.name == 'hp') {
-            pokemonCard.innerHTML += `<div id="hp">${base_stat}</div>`
+            pokemonHP.innerHTML = base_stat;
         } else if (stat.name == 'attack') {
-            pokemonCard.innerHTML += `<div id="hp">${base_stat}</div>`
+            pokemonAttack.innerHTML = base_stat;
         } else if (stat.name == 'defense') {
-            pokemonCard.innerHTML += `<div id="hp">${base_stat}</div>`
+            pokemonDefense.innerHTML = base_stat;
         } else if (stat.name == 'special-attack') {
-            pokemonCard.innerHTML += `<div id="hp">${base_stat}</div>`
+            pokemonSpecialAttack.innerHTML = base_stat;
         } else if (stat.name == 'special-defense') {
-            pokemonCard.innerHTML += `<div id="hp">${base_stat}</div>`
+            pokemonSpecialDefense.innerHTML = base_stat;
         } else if (stat.name == 'speed') {
-            pokemonCard.innerHTML += `<div id="hp">${base_stat}</div>`
+            pokemonSpeed.innerHTML = base_stat;
         }
     });
 };
