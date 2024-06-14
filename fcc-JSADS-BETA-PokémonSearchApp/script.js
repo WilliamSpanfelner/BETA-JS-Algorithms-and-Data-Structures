@@ -16,6 +16,10 @@ const pokemonSpeed = document.getElementById("speed");
 const pokeAPIURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
 let pokemonData = [];
 
+const fetchDataFrom = (url) => {
+    
+};
+
 // Coding output changes can be more readily seen by enabling the following line - it should be commented out by default
 searchInput.value = "Pikachu";
 
