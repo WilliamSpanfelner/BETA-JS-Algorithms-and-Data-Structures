@@ -3,6 +3,7 @@ const searchButton = document.getElementById("search-button");
 
 // const pokemonCard = document.getElementById("pokemon-card");
 const pokemonName = document.getElementById("pokemon-name");
+const pokemonImage = document.getElementById("pokemon-image");
 const pokemonId = document.getElementById("pokemon-id");
 const pokemonWeight = document.getElementById("weight");
 const pokemonHeight = document.getElementById("height");
