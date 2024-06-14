@@ -15,7 +15,7 @@ const pokemonSpecialDefense = document.getElementById("special-defense");
 const pokemonSpeed = document.getElementById("speed");
 
 const pokeAPIURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
-let pokemonData;
+// let pokemonData;
 
 const fetchDataFrom = async (url) => {
     try {
