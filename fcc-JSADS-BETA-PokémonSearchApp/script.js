@@ -44,6 +44,7 @@ const oldFetch = (url) => {
 searchInput.value = "Pikachu";
 
 searchButton.addEventListener("click", ()=>{
+    pokemonTypes.innerHTML = ``;
     if (searchInput.value === "Red") {
         alert("Pokémon not found");
     } else {
@@ -63,13 +64,9 @@ const showPoke = (data) => {
         // newImgElement.src = front_default;
         // newImgElement.alt = "front veiw of pokemon";
         // document.body.appendChild(newImgElement);
-        if (pokemonImage) {
-            // if element is available
-            pokemonImage.innerHTML = `<img src="${front_default}" alt="pokemon image front">`;
-            pokemonImage.style.display = "block";
-        } else {
-            console.log("No element found");
-        }
+        pokemonImage.innerHTML = `<img src="${front_default}" alt="pokemon image front">`;
+
+        pokemonTypes.innerHTML = `<p>ELECTRIC</p>`;
     }
     pokemonName.innerHTML = name;
     pokemonId.innerHTML = id;
