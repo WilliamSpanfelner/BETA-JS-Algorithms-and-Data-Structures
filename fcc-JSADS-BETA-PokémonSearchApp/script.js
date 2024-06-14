@@ -54,6 +54,7 @@ searchButton.addEventListener("click", ()=>{
 
 const showPoke = (data) => {
     const {height, id, name, sprites, weight, stats} = data;
+    const {front_default} = sprites;
     // data.forEach(({name, id, weight, height, order,}) => {
         // pokemonCard.innerHTML += `
         // <div id="pokemon-name">${name}</div>
@@ -63,6 +64,15 @@ const showPoke = (data) => {
         // `;      
     // });
     pokemonName.innerHTML = name;
+    console.log(`name = ${name}`);
+    if (name == "pikachu") {
+        const newImgElement = document.createElement('img');
+        newImgElement.src = front_default;
+        newImgElement.alt = "front veiw of pokemon";
+        document.body.appendChild(newImgElement);
+        // pokemonImage.innerHTML = `<img src="${}" alt=>`;
+        // pokemonImage.style.display = "block";
+    }
     pokemonId.innerHTML = id;
     pokemonWeight.innerHTML = `Weight: ${weight}`;
     pokemonHeight.innerHTML = `Height: ${height}`;
