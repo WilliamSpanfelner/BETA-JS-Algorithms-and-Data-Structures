@@ -16,6 +16,9 @@ const pokemonSpeed = document.getElementById("speed");
 const pokemonDataBaseURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/"
 let pokemonData = [];
 
+// Coding output changes can be more readily seen by enabling the following line - it should be commented out by default
+searchInput.value = "Pikachu";
+
 searchButton.addEventListener("click", ()=>{
     if (searchInput.value === "Red") {
         alert("Pokémon not found");
