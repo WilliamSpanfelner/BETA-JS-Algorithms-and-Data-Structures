@@ -17,7 +17,11 @@ const pokeAPIURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
 let pokemonData = [];
 
 const fetchDataFrom = async (url) => {
-    
+    try {
+        
+    } catch (error) {
+        
+    }
 };
 
 // This works fine
