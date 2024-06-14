@@ -18,6 +18,7 @@ let pokemonData;
 
 const fetchDataFrom = async (url) => {
     try {
+        const res = await fetch(url);
         
     } catch (error) {
         
