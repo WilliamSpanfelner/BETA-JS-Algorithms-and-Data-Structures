@@ -21,7 +21,7 @@ const fetchDataFrom = async (url) => {
     try {
         const res = await fetch(url);
         const data = await res.json();
-        console.log(data);
+        // console.log(data);
         showPoke(data);
     } catch (err) {
         console.log(err)
@@ -56,24 +56,21 @@ searchButton.addEventListener("click", ()=>{
 const showPoke = (data) => {
     const {height, id, name, sprites, weight, stats} = data;
     const {front_default} = sprites;
-    // data.forEach(({name, id, weight, height, order,}) => {
-        // pokemonCard.innerHTML += `
-        // <div id="pokemon-name">${name}</div>
-        // <div id="pokemon-id">${id}</div>
-        // <div id="weight">Weight: ${weight}</div>
-        // <div id="height">Height: ${height}</div>
-        // `;      
-    // });
-    pokemonName.innerHTML = name;
-    console.log(`name = ${name}`);
+    
     if (name == "pikachu") {
-        const newImgElement = document.createElement('img');
-        newImgElement.src = front_default;
-        newImgElement.alt = "front veiw of pokemon";
-        document.body.appendChild(newImgElement);
-        // pokemonImage.innerHTML = `<img src="${}" alt=>`;
-        // pokemonImage.style.display = "block";
+        // const newImgElement = document.createElement('img');
+        // newImgElement.src = front_default;
+        // newImgElement.alt = "front veiw of pokemon";
+        // document.body.appendChild(newImgElement);
+        if (pokemonImage) {
+            // if element is available
+            pokemonImage.innerHTML = `<img src="${front_default}" alt="pokemon image front">`;
+            pokemonImage.style.display = "block";
+        } else {
+            console.log("No element found");
+        }
     }
+    pokemonName.innerHTML = name;
     pokemonId.innerHTML = id;
     pokemonWeight.innerHTML = `Weight: ${weight}`;
     pokemonHeight.innerHTML = `Height: ${height}`;
