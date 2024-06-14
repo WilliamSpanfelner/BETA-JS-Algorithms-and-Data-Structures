@@ -53,6 +53,7 @@ searchButton.addEventListener("click", ()=>{
 });
 
 const showPoke = (data) => {
+    const {height, id, name, sprites, weight, stats} = data;
     // data.forEach(({name, id, weight, height, order,}) => {
         // pokemonCard.innerHTML += `
         // <div id="pokemon-name">${name}</div>
