@@ -12,6 +12,8 @@ body {
     background-color: var(--pokemon-yellow);
 }
 
+#pokemon-image { display: none; }
+
 #pokemon-name {
     text-transform: uppercase;
 }
