@@ -7,6 +7,7 @@ const pokemonImage = document.getElementById("pokemon-image");
 const pokemonId = document.getElementById("pokemon-id");
 const pokemonWeight = document.getElementById("weight");
 const pokemonHeight = document.getElementById("height");
+const pokemonTypes = document.getElementById("types");
 const pokemonHP = document.getElementById("hp");
 const pokemonAttack = document.getElementById("attack");
 const pokemonDefense = document.getElementById("defense");
