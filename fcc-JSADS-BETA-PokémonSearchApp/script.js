@@ -20,6 +20,16 @@ const fetchDataFrom = (url) => {
     
 };
 
+const oldFetch = (url) => {
+    fetch(url)
+    .then((res)=>res.json())
+    .then((data)=>{
+        console.log(data);
+        pokemonData = data;
+        displayRetrieved(pokemonData);
+    })
+};
+
 // Coding output changes can be more readily seen by enabling the following line - it should be commented out by default
 searchInput.value = "Pikachu";
 
