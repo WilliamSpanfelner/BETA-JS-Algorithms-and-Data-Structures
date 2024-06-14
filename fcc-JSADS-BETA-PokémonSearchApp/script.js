@@ -16,10 +16,11 @@ const pokemonSpeed = document.getElementById("speed");
 const pokeAPIURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
 let pokemonData = [];
 
-const fetchDataFrom = (url) => {
+const fetchDataFrom = async (url) => {
     
 };
 
+// This works fine
 const oldFetch = (url) => {
     fetch(url)
     .then((res)=>res.json())
