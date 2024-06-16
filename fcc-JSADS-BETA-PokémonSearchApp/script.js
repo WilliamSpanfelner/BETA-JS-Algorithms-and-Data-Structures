@@ -69,7 +69,11 @@ const showPoke = (data) => {
         pokemonImage.append(img);
     };
     
-    const createTypeElements = (array) => {}
+    const createTypeElements = (array) => {
+        if (pokemonTypes.childElementCount > 0) {
+            pokemonTypes.children.remove();
+        }
+    }
 
 
     if (name == "pikachu") {
