@@ -55,7 +55,7 @@ searchButton.addEventListener("click", ()=>{
 });
 
 const showPoke = (data) => {
-    const {height, id, name, sprites, weight, stats} = data;
+    const {height, id, name, sprites, weight, stats, types} = data;
     const {front_default} = sprites;
     
     const createImageElement = (url) => {
