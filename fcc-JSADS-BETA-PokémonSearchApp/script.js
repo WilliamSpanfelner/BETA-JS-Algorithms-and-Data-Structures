@@ -80,6 +80,7 @@ const showPoke = (data) => {
         // pokemonImage.innerHTML = `<img id="sprite" src="${front_default}" alt="pokemon image front">`;
         pokemonTypes.innerHTML = `<p>ELECTRIC</p>`;
     }
+    createImageElement(front_default);
     pokemonName.innerHTML = name;
     pokemonId.innerHTML = id;
     pokemonWeight.innerHTML = `Weight: ${weight}`;
