@@ -74,6 +74,8 @@ const showPoke = (data) => {
             if (index === 0 && pokemonTypes.childElementCount > 0) {
                 pokemonTypes.children.remove();
             }
+            const {slot, type} = item;
+            const {name, url} = type;
         });
         
     }
