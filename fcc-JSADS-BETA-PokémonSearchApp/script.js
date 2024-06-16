@@ -69,14 +69,11 @@ const showPoke = (data) => {
         pokemonImage.append(img);
     };
 
-        // pokemonImage.innerHTML = `<img id="sprite" src="${front_default}" alt="pokemon image front">`;
     if (name == "pikachu") {
         // const newImgElement = document.createElement('img');
         // newImgElement.src = front_default;
         // newImgElement.alt = "front veiw of pokemon";
         // document.body.appendChild(newImgElement);
-
-        // pokemonImage.innerHTML = `<img id="sprite" src="${front_default}" alt="pokemon image front">`;
         pokemonTypes.innerHTML = `<p>ELECTRIC</p>`;
     }
     createImageElement(front_default);
