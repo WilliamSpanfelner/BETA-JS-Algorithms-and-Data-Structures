@@ -80,7 +80,7 @@ const showPoke = (data) => {
             const {slot, type} = item;
             const {name, url} = type;
             const span = document.createElement('span');
-            span.textContent = name.toUpperCase();
+            span.textContent = name;
             span.classList = `type ${name}`;
             pokemonTypes.append(span);
         });
