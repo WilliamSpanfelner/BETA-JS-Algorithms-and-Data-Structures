@@ -22,10 +22,10 @@ const fetchDataFrom = async (url) => {
     try {
         const res = await fetch(url);
         const data = await res.json();
-        // console.log(data);
         showPoke(data);
     } catch (err) {
-        console.log(err)
+        console.log(err);
+        alert("Pokémon not found");
     }
 };
 
