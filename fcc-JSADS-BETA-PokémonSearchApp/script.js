@@ -86,18 +86,6 @@ const showPoke = (data) => {
         });
     }
 
-    // if (name == "94") {
-    //     pokemonTypes.innerHTML = `<p>GHOST</p><p>POISON</p>`;
-    // }
-
-    // if (name == "pikachu") {
-    //     // const newImgElement = document.createElement('img');
-    //     // newImgElement.src = front_default;
-    //     // newImgElement.alt = "front veiw of pokemon";
-    //     // document.body.appendChild(newImgElement);
-    //     createTextElement("ELECTRIC")
-    //     // pokemonTypes.innerHTML = `<p>ELECTRIC</p>`;
-    // }
     createTypeElements(types);
     createSpriteElement(front_default);
     pokemonName.innerHTML = name;
