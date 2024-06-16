@@ -17,3 +17,7 @@ body {
 #pokemon-name {
     text-transform: uppercase;
 }
+
+#types span {
+    text-transform: uppercase;
+}
