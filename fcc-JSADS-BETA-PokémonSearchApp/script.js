@@ -72,7 +72,10 @@ const showPoke = (data) => {
     const createTypeElements = (array) => {
         array.forEach((item, index) => {
             if (index === 0 && pokemonTypes.childElementCount > 0) {
-                pokemonTypes.children.remove();
+                // pokemonTypes.children.remove();
+                while (pokemonTypes.firstChild) {
+                    pokemonTypes.removeChild(pokemonTypes.firstChild)
+                }
             }
             const {slot, type} = item;
             const {name, url} = type;
