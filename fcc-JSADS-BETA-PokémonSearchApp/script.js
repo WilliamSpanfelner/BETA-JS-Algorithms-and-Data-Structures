@@ -70,9 +70,12 @@ const showPoke = (data) => {
     };
     
     const createTypeElements = (array) => {
-        if (pokemonTypes.childElementCount > 0) {
-            pokemonTypes.children.remove();
-        }
+        array.forEach((item, index) => {
+            if (index === 0 && pokemonTypes.childElementCount > 0) {
+                pokemonTypes.children.remove();
+            }
+        });
+        
     }
 
 
