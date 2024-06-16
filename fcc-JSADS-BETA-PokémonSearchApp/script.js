@@ -35,9 +35,13 @@ const oldFetch = (url) => {
     .then((res)=>res.json())
     .then((data)=>{
         console.log(data);
-        pokemonData = data;
-        showPoke(pokemonData);
+        // pokemonData = data;
+        showPoke(data);
     })
+    .catch((err)=>{
+        console.log(err);
+        alert("Pokémon not found");
+    });
 };
 
 // Coding output changes can be more readily seen by enabling the following line - it should be commented out by default
