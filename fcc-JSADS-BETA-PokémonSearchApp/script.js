@@ -58,7 +58,7 @@ const showPoke = (data) => {
     const {height, id, name, sprites, weight, stats, types} = data;
     const {front_default} = sprites;
     
-    const createImageElement = (url) => {
+    const createSpriteElement = (url) => {
         const pSprite = document.getElementById('sprite')
         if (pSprite) {
             pSprite.remove();
@@ -93,6 +93,7 @@ const showPoke = (data) => {
         pokemonTypes.innerHTML = `<p>ELECTRIC</p>`;
     }
     createImageElement(front_default);
+    createSpriteElement(front_default);
     pokemonName.innerHTML = name;
     pokemonId.innerHTML = id;
     pokemonWeight.innerHTML = `Weight: ${weight}`;
