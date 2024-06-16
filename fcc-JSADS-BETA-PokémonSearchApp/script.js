@@ -68,6 +68,9 @@ const showPoke = (data) => {
         img.id = 'sprite';
         pokemonImage.append(img);
     };
+    
+    const createTypeElements = (array) => {}
+
 
     if (name == "pikachu") {
         // const newImgElement = document.createElement('img');
