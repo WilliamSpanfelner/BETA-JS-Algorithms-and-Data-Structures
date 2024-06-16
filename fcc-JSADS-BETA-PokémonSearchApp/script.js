@@ -44,7 +44,6 @@ const oldFetch = (url) => {
 searchInput.value = "Pikachu";
 
 searchButton.addEventListener("click", ()=>{
-    pokemonTypes.innerHTML = ``;
     if (searchInput.value === "Red") {
         alert("Pokémon not found");
     } else {
