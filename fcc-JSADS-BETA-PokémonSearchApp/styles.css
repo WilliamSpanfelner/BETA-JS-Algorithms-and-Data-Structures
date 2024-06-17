@@ -34,6 +34,10 @@ tbody {
     text-align: center;
 }
 
+th, td {
+    padding: 0.7rem;
+}
+
 tr {
     border-bottom: 2px solid var(--pokemon-yellow);
 }
