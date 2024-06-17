@@ -20,6 +20,10 @@ main {
     justify-content: center;
 }
 
+#pokemon-IO-Container {
+    width: 375px;
+}
+
 /* #pokemon-image { display: none; } */
 
 form {
