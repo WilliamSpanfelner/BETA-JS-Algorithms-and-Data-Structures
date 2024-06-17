@@ -37,3 +37,8 @@ tbody {
 tr {
     border-bottom: 2px solid var(--pokemon-yellow);
 }
+
+th:nth-child(even),
+td:nth-child(even) {
+    border-left: 2px solid var(--pokemon-yellow);
+}
