@@ -26,4 +26,7 @@ body {
 
 table {
     width: 100%;
+    background-color: var(--pokemon-blue);
+    color: var(--pokemon-yellow);
+}
 }
