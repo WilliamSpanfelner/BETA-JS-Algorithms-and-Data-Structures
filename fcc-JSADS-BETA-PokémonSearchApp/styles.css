@@ -23,6 +23,11 @@ form {
     flex-wrap: wrap;
     gap: 0.5rem;
 }
+
+input {
+    height: 3em;
+    border-radius: 0.5em;
+    color: var(--pokemon-blue);
 }
 
 #pokemon-name {
