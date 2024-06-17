@@ -98,18 +98,20 @@ const showPoke = (data) => {
     pokemonHeight.innerHTML = `Height: ${height}`;
 
     stats.forEach(({base_stat, stat}, index) => {
-        if (stat.name == 'hp') {
-            pokemonHP.innerHTML = base_stat;
-        } else if (stat.name == 'attack') {
-            pokemonAttack.innerHTML = base_stat;
-        } else if (stat.name == 'defense') {
-            pokemonDefense.innerHTML = base_stat;
-        } else if (stat.name == 'special-attack') {
-            pokemonSpecialAttack.innerHTML = base_stat;
-        } else if (stat.name == 'special-defense') {
-            pokemonSpecialDefense.innerHTML = base_stat;
-        } else if (stat.name == 'speed') {
-            pokemonSpeed.innerHTML = base_stat;
-        }
+        const {name} = stat;
+        document.getElementById(name).innerHTML = base_stat;
+        // if (stat.name == 'hp') {
+        //     pokemonHP.innerHTML = base_stat;
+        // } else if (stat.name == 'attack') {
+        //     pokemonAttack.innerHTML = base_stat;
+        // } else if (stat.name == 'defense') {
+        //     pokemonDefense.innerHTML = base_stat;
+        // } else if (stat.name == 'special-attack') {
+        //     pokemonSpecialAttack.innerHTML = base_stat;
+        // } else if (stat.name == 'special-defense') {
+        //     pokemonSpecialDefense.innerHTML = base_stat;
+        // } else if (stat.name == 'speed') {
+        //     pokemonSpeed.innerHTML = base_stat;
+        // }
     });
 };
