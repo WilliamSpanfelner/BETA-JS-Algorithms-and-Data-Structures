@@ -17,8 +17,12 @@ body {
 
 /* #pokemon-image { display: none; } */
 
-label {
-    display: block;
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
 }
 
 #pokemon-name {
