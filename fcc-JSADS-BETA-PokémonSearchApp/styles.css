@@ -2,9 +2,11 @@
     --pokemon-blue: rgb(25, 104, 183);
     --pokemon-yellow: rgb(254, 225, 51);
     --pokemon-sea: rgb(86, 201, 251); 
+    --pokemon-sea-wash: rgba(86, 201, 251, 0.6); 
 }
   
 body {
+    font-family: sans-serif;
     background-color: var(--pokemon-blue);
 }
 
