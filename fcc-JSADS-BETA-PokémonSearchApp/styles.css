@@ -33,3 +33,7 @@ table {
 tbody {
     text-align: center;
 }
+
+tr {
+    border-bottom: 2px solid var(--pokemon-yellow);
+}
