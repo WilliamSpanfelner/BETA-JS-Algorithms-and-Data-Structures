@@ -12,6 +12,7 @@ body {
 
 #pokemon-card {
     background-color: var(--pokemon-yellow);
+    line-height: 1.5;
 }
 
 /* #pokemon-image { display: none; } */
