@@ -1,19 +1,12 @@
 const searchInput = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
 
-// const pokemonCard = document.getElementById("pokemon-card");
 const pokemonName = document.getElementById("pokemon-name");
 const pokemonImage = document.getElementById("pokemon-image");
 const pokemonId = document.getElementById("pokemon-id");
 const pokemonWeight = document.getElementById("weight");
 const pokemonHeight = document.getElementById("height");
 const pokemonTypes = document.getElementById("types");
-const pokemonHP = document.getElementById("hp");
-const pokemonAttack = document.getElementById("attack");
-const pokemonDefense = document.getElementById("defense");
-const pokemonSpecialAttack = document.getElementById("special-attack");
-const pokemonSpecialDefense = document.getElementById("special-defense");
-const pokemonSpeed = document.getElementById("speed");
 
 const pokeAPIURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
 // let pokemonData;
@@ -100,18 +93,5 @@ const showPoke = (data) => {
     stats.forEach(({base_stat, stat}, index) => {
         const {name} = stat;
         document.getElementById(name).innerHTML = base_stat;
-        // if (stat.name == 'hp') {
-        //     pokemonHP.innerHTML = base_stat;
-        // } else if (stat.name == 'attack') {
-        //     pokemonAttack.innerHTML = base_stat;
-        // } else if (stat.name == 'defense') {
-        //     pokemonDefense.innerHTML = base_stat;
-        // } else if (stat.name == 'special-attack') {
-        //     pokemonSpecialAttack.innerHTML = base_stat;
-        // } else if (stat.name == 'special-defense') {
-        //     pokemonSpecialDefense.innerHTML = base_stat;
-        // } else if (stat.name == 'speed') {
-        //     pokemonSpeed.innerHTML = base_stat;
-        // }
     });
 };
