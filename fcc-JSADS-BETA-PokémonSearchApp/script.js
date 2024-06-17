@@ -9,7 +9,6 @@ const pokemonHeight = document.getElementById("height");
 const pokemonTypes = document.getElementById("types");
 
 const pokeAPIURL = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
-// let pokemonData;
 
 const fetchDataFrom = async (url) => {
     try {
