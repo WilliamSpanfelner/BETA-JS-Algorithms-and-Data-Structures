@@ -17,6 +17,10 @@ body {
 
 /* #pokemon-image { display: none; } */
 
+label {
+    display: block;
+}
+
 #pokemon-name {
     text-transform: uppercase;
 }
