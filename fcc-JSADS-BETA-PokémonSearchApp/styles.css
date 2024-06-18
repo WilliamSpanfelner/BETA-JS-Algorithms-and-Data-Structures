@@ -72,10 +72,6 @@ button {
     align-self: center;
 }
 
-#pokemon-name {
-    text-transform: uppercase;
-}
-
 #types span {
     text-transform: uppercase;
 }
