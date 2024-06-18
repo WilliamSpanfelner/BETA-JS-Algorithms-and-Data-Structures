@@ -63,6 +63,10 @@ button {
     width: 95%;
 } */
 
+#pokemon-image {
+    align-self: center;
+}
+
 #pokemon-name {
     text-transform: uppercase;
 }
