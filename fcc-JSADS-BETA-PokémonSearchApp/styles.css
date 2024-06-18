@@ -57,9 +57,11 @@ button {
     background-color: var(--pokemon-sea-wash);
 }
 
-#output-top, #output-bottom {
-    width: 95%;
 }
+
+/* #output-top, #output-bottom {
+    width: 95%;
+} */
 
 #pokemon-name {
     text-transform: uppercase;
