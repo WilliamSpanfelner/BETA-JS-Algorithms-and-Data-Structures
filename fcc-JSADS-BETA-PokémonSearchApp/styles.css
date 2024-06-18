@@ -60,6 +60,9 @@ button {
 .name-id {
     font-size: large;
 }
+#pokemon-name {
+    text-transform: uppercase;
+}
 
 /* #output-top, #output-bottom {
     width: 95%;
