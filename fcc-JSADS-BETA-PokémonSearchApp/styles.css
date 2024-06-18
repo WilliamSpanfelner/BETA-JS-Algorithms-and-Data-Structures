@@ -55,6 +55,7 @@ button {
     justify-content: space-between;
     min-height: 300px;
     background-color: var(--pokemon-sea-wash);
+    padding: 1rem;
 }
 
 .name-id {
