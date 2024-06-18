@@ -51,6 +51,8 @@ button {
 #output-top {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     min-height: 300px;
     background-color: var(--pokemon-sea-wash);
 }
