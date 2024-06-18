@@ -57,6 +57,8 @@ button {
     background-color: var(--pokemon-sea-wash);
 }
 
+.name-id {
+    font-size: large;
 }
 
 /* #output-top, #output-bottom {
