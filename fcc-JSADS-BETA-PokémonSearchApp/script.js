@@ -84,13 +84,13 @@ const showPoke = (data) => {
 
     createTypeElements(types);
     createSpriteElement(front_default);
-    pokemonName.innerHTML = name;
-    pokemonId.innerHTML = id;
-    pokemonWeight.innerHTML = `Weight: ${weight}`;
-    pokemonHeight.innerHTML = `Height: ${height}`;
+    pokemonName.innerText = name;
+    pokemonId.innerText = ` #${id}`;
+    pokemonWeight.innerText = `Weight: ${weight}`;
+    pokemonHeight.innerText = `Height: ${height}`;
 
     stats.forEach(({base_stat, stat}, index) => {
         const {name} = stat;
-        document.getElementById(name).innerHTML = base_stat;
+        document.getElementById(name).innerText = base_stat;
     });
 };
