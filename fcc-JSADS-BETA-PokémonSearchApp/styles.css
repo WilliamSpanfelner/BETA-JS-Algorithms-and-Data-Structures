@@ -86,6 +86,27 @@ button {
     background-color: red;
 }
 
+.electric {
+  background-color: #fecc33;
+}
+
+.ghost {
+  background-color: #9995d0;
+}
+
+.poison {
+  background-color: #c68bb7;
+}
+
+.rock {
+  background-color: #baaa66;
+}
+
+.ground {
+  background-color: #dfba52;
+}
+
+
 table {
     width: 100%;
     background-color: var(--pokemon-blue);
