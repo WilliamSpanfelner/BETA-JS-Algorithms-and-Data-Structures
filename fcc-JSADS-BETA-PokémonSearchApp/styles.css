@@ -72,6 +72,10 @@ button {
     align-self: center;
 }
 
+#sprite {
+    height: 40vh;
+}
+
 #types span {
     text-transform: uppercase;
 }
