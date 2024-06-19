@@ -69,6 +69,7 @@ button {
 .name-id {
     font-size: large;
 }
+
 #pokemon-name {
     text-transform: uppercase;
 }
@@ -112,7 +113,6 @@ button {
 .ground {
   background-color: #dfba52;
 }
-
 
 table {
     width: 100%;
