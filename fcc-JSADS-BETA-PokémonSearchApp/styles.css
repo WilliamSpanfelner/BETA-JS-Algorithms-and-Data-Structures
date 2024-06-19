@@ -79,7 +79,13 @@ button {
 }
 
 #sprite {
-    height: 30vh;
+    height: 25vh;
+}
+
+#types {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .type {
