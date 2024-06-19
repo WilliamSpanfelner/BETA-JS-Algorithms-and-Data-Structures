@@ -22,6 +22,10 @@ main {
     width: 250px;
 }
 
+h1 {
+    color: snow;
+}
+
 form {
     display: flex;
     justify-content: center;
