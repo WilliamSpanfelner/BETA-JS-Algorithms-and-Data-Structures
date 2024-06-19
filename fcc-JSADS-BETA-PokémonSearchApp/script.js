@@ -37,7 +37,7 @@ const oldFetch = (url) => {
 };
 
 // Coding output changes can be more readily seen by enabling the following line - it should be commented out by default
-searchInput.value = "Pikachu";
+// searchInput.value = "Pikachu";
 
 searchButton.addEventListener("click", ()=>{
     if (searchInput.value === "Red") {
