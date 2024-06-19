@@ -52,8 +52,8 @@ input {
 }
 
 button {
-    background-color: var(--pokemon-sea-wash);
-    color: var(--pokemon-yellow);
+    background-color: var(--pokemon-yellow);
+    color: var(--pokemon-blue);
     font-weight: bold;
     font-size: medium;
     border-radius: 0.5em;
