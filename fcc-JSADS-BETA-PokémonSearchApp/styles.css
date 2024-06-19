@@ -52,7 +52,7 @@ input {
 }
 
 button {
-    background-color: var(--pokemon-blue);
+    background-color: var(--pokemon-sea-wash);
     color: var(--pokemon-yellow);
     font-weight: bold;
     font-size: medium;
@@ -86,7 +86,7 @@ button {
 }
 
 #sprite {
-    height: 40vh;
+    height: 30vh;
 }
 
 .type {
