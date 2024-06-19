@@ -100,24 +100,52 @@ button {
     text-align: center;
 }
 
+.bug {
+    background-color: #aabb23;
+}
+
+.water {
+    background-color: #42a1ff;
+}
+
 .electric {
-  background-color: #fecc33;
+    background-color: #fecc33;
+}
+
+.fairy {
+    background-color: #ed99ed;
+}
+
+.fire {
+    background-color: #ff6f52;
 }
 
 .ghost {
-  background-color: #9995d0;
+    background-color: #9995d0;
+}
+
+.grass {
+    background-color: #78cc55;
+}
+
+.normal {
+    background-color: #b7b7aa;
 }
 
 .poison {
-  background-color: #c68bb7;
+    background-color: #c68bb7;
+}
+
+.psychic {
+    background-color: #ff66a3;
 }
 
 .rock {
-  background-color: #baaa66;
+    background-color: #baaa66;
 }
 
 .ground {
-  background-color: #dfba52;
+    background-color: #dfba52;
 }
 
 table {
