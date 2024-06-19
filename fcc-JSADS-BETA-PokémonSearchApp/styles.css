@@ -28,6 +28,10 @@ main {
 
 #pokemon-IO-container {
     width: 375px;
+    border: 1px solid var(--pokemon-sea);
+    border-radius: 50px;
+    padding: 1rem;
+    background-color: var(--pokemon-blue);
 }
 
 .logo {
