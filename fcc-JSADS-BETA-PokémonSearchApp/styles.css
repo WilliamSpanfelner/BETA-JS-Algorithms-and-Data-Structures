@@ -3,11 +3,12 @@
     --pokemon-yellow: rgb(254, 225, 51);
     --pokemon-sea: rgb(86, 201, 251); 
     --pokemon-sea-wash: rgba(255, 255, 255, 0.2); 
+    --purple: rebeccapurple;
 }
   
 body {
     font-family: sans-serif;
-    background-color: var(--pokemon-blue);
+    background-color: var(--purple);
 }
 
 #pokemon-card {
