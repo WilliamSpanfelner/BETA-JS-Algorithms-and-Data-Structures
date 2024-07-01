@@ -110,7 +110,7 @@ function checkCashRegister(price, cash, cid) {
     // Get the relevant denominations from cid
     const availableChange = addDenominationsTo(cashInDrawer)
     .filter(element => element[2] <= balance * 100)
-    .sort(function (a, b) { return b[2] - a[2] });  // sort descending by the denomination value
+    .sort((a, b) => b[2] - a[2]);  // sort descending by the denomination value
   
     // Get the value of the change available
     const valueAvailableChange = availableChange
